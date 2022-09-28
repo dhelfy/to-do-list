@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+    background-color: #3b3b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ToDoBox{
+    width: 385px;
+    height: 625px;
+    background-color: #1a1a1a;
+    margin-top: 120px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.AddButton{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-left: 10px; 
+    margin-top: 10px;
+    color: white;
+    background-color: #363636;
+    border: 0px;
+    float: left;
+}
+
+.AddButton:active{
+    background-color: #2b2b2b;
+}
+
+.elem{
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.ol{
+    margin-top: 50px;
+}
+
+.input{
+    margin-top: 14px; 
+    margin-left: 12px;
+    color: white;
+    height: 27px;
+    width: 80%;
+    background-color: #b0850e;
+    border-radius: 20px;
+    border: 0px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.deletebutton{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    color: white;
+    background-color: #363636;
+    border: 0px;
+    float: right;
+    text-align: center;
+    line-height: 0;
+}
+
+.deletebutton:hover{
+     background-color: #2b2b2b;
+}
